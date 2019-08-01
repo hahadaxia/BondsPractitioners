@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "tsinghua"
+
+[packages]
+scrapy = "*"
+requests = "*"
+"beautifulsoup4" = "*"
+pyexcel = "*"
+pyexcel-xls = "*"
+pyexcel-xlsx = "*"
+pdfplumber = "*"
+sqlalchemy = "*"
+python-docx = "*"
+
+[dev-packages]
+sqlacodegen = "*"
+
+[requires]
+python_version = "3.7"
